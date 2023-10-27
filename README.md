@@ -27,6 +27,7 @@ UTF-8 character encoding is used for both HTTPS communication
 - **Endpoint：** openapi/feeds_th
 - **Endpoint：** openapi/feeds_zhtw
 
+Sometimes we want to query previous data. Therefore the parameter "length" is added. "length" represents the number of days from a previous time to the current time. For example, the current date is 2018-01-02, we can call openapi/feeds?length=1 to query the data on 2018-01-01。 
 
 ### 1.5 Response Message Structure
 #### 1.5.1 Structure Description
